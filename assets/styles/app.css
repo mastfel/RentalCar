@@ -1,3 +1,40 @@
 body {
-    background-color: skyblue;
+    background-color: rgb(231, 239, 243);
+}
+header{
+   
+    height: 500px;
+    background-image: url(/img/rentalcar.jpg) ;
+    background-color: blanchedalmond;
+    background-size: cover;
+    margin: 20px;
+    text-align: center;
+   
+   
+}
+.title{
+    color:white;
+    padding-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+ li{
+    margin: 5px;
+    list-style-type: none;
+
+    
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+footer{
+    background-color: rgb(235, 163, 163);
+    display: flex;
+    justify-content: center;
 }
